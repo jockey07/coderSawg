@@ -10,6 +10,7 @@ import UIKit
 
 class CategoryCell: UITableViewCell {
 
+    //these are unique to each cell and will be filled at runtime
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var categoryImage: UIImageView!
     
