@@ -31,21 +31,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="csJ-T9-frY">
-                                <rect key="frame" x="0.0" y="69" width="375" height="534"/>
+                                <rect key="frame" x="0.0" y="68" width="375" height="535"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="114" id="2tD-Rs-ptv" customClass="CategoryCell" customModule="coder_Swag" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="114"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="120" id="2tD-Rs-ptv" customClass="CategoryCell" customModule="coder_Swag" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2tD-Rs-ptv" id="hkL-SZ-inh">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="113.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="TDd-8U-FGA">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="113.5"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="TDd-8U-FGA">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSk-gN-nYd">
-                                                    <rect key="frame" x="115" y="42.5" width="145" height="29"/>
+                                                    <rect key="frame" x="115" y="45.5" width="145" height="29"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="145" id="8cc-La-y7A"/>
                                                         <constraint firstAttribute="height" constant="29" id="gLu-Fe-ZGG"/>
@@ -65,8 +65,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="categoryImage" destination="TDd-8U-FGA" id="pPP-wC-WJk"/>
-                                            <outlet property="categoryLabel" destination="FSk-gN-nYd" id="KQd-wo-SJZ"/>
+                                            <outlet property="categoryImage" destination="TDd-8U-FGA" id="Jqp-7k-yWQ"/>
+                                            <outlet property="categoryTitle" destination="FSk-gN-nYd" id="D3i-7d-oGH"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -90,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="477.60000000000002" y="133.5832083958021"/>
+            <point key="canvasLocation" x="477.5" y="133.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YSV-Rp-0Ra">
