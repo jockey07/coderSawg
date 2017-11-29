@@ -42,7 +42,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="TDd-8U-FGA">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
+                                                    <rect key="frame" x="0.0" y="3" width="375" height="106.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSk-gN-nYd">
                                                     <rect key="frame" x="115" y="45.5" width="145" height="29"/>
@@ -56,8 +56,8 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="TDd-8U-FGA" firstAttribute="top" secondItem="hkL-SZ-inh" secondAttribute="top" id="1Oe-vo-KHa"/>
-                                                <constraint firstAttribute="bottom" secondItem="TDd-8U-FGA" secondAttribute="bottom" id="AQJ-C0-Ccg"/>
+                                                <constraint firstAttribute="bottom" secondItem="TDd-8U-FGA" secondAttribute="bottom" constant="10" id="2Qc-W4-FGz"/>
+                                                <constraint firstItem="TDd-8U-FGA" firstAttribute="top" secondItem="hkL-SZ-inh" secondAttribute="top" constant="3" id="7cE-1v-aIv"/>
                                                 <constraint firstAttribute="trailing" secondItem="TDd-8U-FGA" secondAttribute="trailing" id="ODe-Gn-6ae"/>
                                                 <constraint firstItem="TDd-8U-FGA" firstAttribute="leading" secondItem="hkL-SZ-inh" secondAttribute="leading" id="Xqt-m9-UND"/>
                                                 <constraint firstItem="FSk-gN-nYd" firstAttribute="centerY" secondItem="hkL-SZ-inh" secondAttribute="centerY" id="sdu-St-1sg"/>
